@@ -1,0 +1,72 @@
+.beijin{
+	background-color: lightblue;
+}
+.fengmian {
+	width: 100%;
+	height: 100%;
+	background-position: center center;
+}
+.div-dingwei {
+	display: table;
+	position: relative;
+}
+.div-nei-bianju {
+	display: table-cell;
+	padding: 60px 10%;
+}
+.dabiaoti {
+	font-weight: 100;
+	text-align: center;
+	color: #ffffff;
+	
+.jianju {
+  max-width: 620px;
+  margin: 0 auto;
+}
+.ih-item a {
+  color: #333;
+}
+
+.ih-item a:hover {
+  text-decoration: none;
+}
+
+.ih-item img {
+  width: 100%;
+  height: 100%;
+}
+.ih-item.circle.effect {
+  margin: 0 auto;
+  -webkit-perspective: 900px;
+  -moz-perspective: 900px;
+  perspective: 900px;
+}
+.ih-item.circle.effect .img {
+  z-index: 11;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.ih-item.circle.effect .info {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.ih-item.circle.effect.right_to_left .img {
+  -webkit-transform-origin: 0% 50%;
+  -moz-transform-origin: 0% 50%;
+  -ms-transform-origin: 0% 50%;
+  -o-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+}
+
+.ih-item.circle.effect.right_to_left a:hover .img {
+  -webkit-transform: rotate3d(0, 1, 0, -180deg);
+  -moz-transform: rotate3d(0, 1, 0, -180deg);
+  -ms-transform: rotate3d(0, 1, 0, -180deg);
+  -o-transform: rotate3d(0, 1, 0, -180deg);
+  transform: rotate3d(0, 1, 0, -180deg);
+}
